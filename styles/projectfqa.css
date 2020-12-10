@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+* {box-sizing: border-box;}
+
+main {display: grid; grid-template-columns: 120px auto; grid-template-rows: auto; margin:0px; }
+
+.grid1 {grid-column: 1; grid-row: 1; margin: 0px; background-image: url("../images/lotuspond.png"); background-size:contain;}
+
+.grid2 {grid-column: 2; grid-row: 1; padding: 15px; padding-bottom: 0px;}
+
+.grid2heading {background-color: #3D2100; color: #FFE680; margin: 0px auto 15px auto; width: 100%; padding: 15px; text-align: center;}
+.grid2heading h2 {font-size: 2rem;}
+
+p {font-size: 1.4rem; margin-top: 10px; margin-bottom: 3px;}
+.question {color: #B81419;}
+.answer {text-decoration: underline; color: #3D2100; }
+.reveal {font-style: italic; margin-bottom: 20px; margin-left: 10px;}
+.answerspan {color: #B81419;}
+
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+.fieldsetdiv {background-color: #3D2100; padding: 2px; margin-bottom: 15px; text-align: center;}
+fieldset{ background-color: #ffffff;font-size: 1.3rem; margin-top: 0px;}
+form {text-align: center;}
+label {display: block; margin: 10px 0px; font-size: 1.4rem;}
+input { display: block; margin-bottom: 20px; width: 300px; height: 30px;}
+.inlinedisplay {display: inline; width: auto; height: auto;}
+.inputsubmit { text-align: center;  color: #ffffff; font-size: 1.2rem; background-color: #3D2100; width: auto;}
+.inputsubmit:hover {background-color: #B81419;}
+
+
+
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+footer {z-index: 1;}

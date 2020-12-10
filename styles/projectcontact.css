@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+* {box-sizing: border-box;}
+
+main {display: grid; grid-template-columns: 200px auto; grid-template-rows: auto; margin:0px; }
+
+.grid1 {grid-column: 1; grid-row: 1; margin: 0px; background-image: url("../images/lotuspond.png"); background-size:contain;}
+
+.grid2 {grid-column: 2; grid-row: 1; margin-top: 15px; padding: 10px 0px 10px 20px;}
+
+.grid2 h2 {font-size: 2.5rem; text-align: left; display: block; padding: 0px; margin: 0px;}
+
+.mapdiv {text-align: center;}
+.mapdiv img {height: 400px; width: 500px;}
+.mapdiv a img:hover {height: 600px; width: 800px;}
+
+.grid2 p {font-size: 1.3rem; margin: 3px 3px 3px 100px;}
+.grid2 h3 {font-size: 1.5rem; margin: 5px; margin: 3px 3px 3px 80px;}
+.grid2 p a:link { text-decoration: none; color: #B81419; font-style: italic; }
+.grid2 p a:visited { color: #B81419; font-style: italic;}
+.grid2 p a:hover {text-decoration: underline; font-style: italic;}
+
+
+
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+.fieldsetdiv {background-color: #3D2100; padding: 2px; margin-bottom: 15px; text-align: center;}
+fieldset{ background-color: #ffffff;font-size: 1.3rem; margin-top: 0px;}
+form {text-align: center;}
+label {display: block; margin: 10px 0px; font-size: 1.4rem;}
+input { display: block; margin-bottom: 20px; width: 300px; height: 30px;}
+.inlinedisplay {display: inline; width: auto; height: auto;}
+.inputsubmit { text-align: center;  color: #ffffff; font-size: 1.2rem; background-color: #3D2100; width: auto;}
+.inputsubmit:hover {background-color: #B81419;}
+
+
+
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+footer {z-index: 1;}

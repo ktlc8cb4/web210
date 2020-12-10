@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* COLOR white:#ffffff; dark:#3d2100; red:#b81419; yellow:#ffe680; green:#b3ffb3;
+   FONT: Calibri, Helvetica, "Gill Sans", sans-serif;*/
+* {
+  box-sizing: border-box;
+}
+html { height: 100%;}
+body {
+    font-family: Calibri, Helvetica, "Gill Sans", sans-serif; background-attachment: fixed;
+	color: #3d2100; height: 100%; margin: 0;}
+header { background-color: #ffe680; font-size: 3em; text-align: center;
+        padding: 10px; margin: 20px 0px 0px 0px;}
+nav { border-bottom: 5px solid #b81419; padding-top: 5px; padding-bottom: 0px;
+		text-align: center; background-color: #3d2100; font-size: 1.4em; font-style: italic;  } 
+nav li { list-style-type: none;  display: inline; margin: 0px 10px 0px 10px;}
+nav li a:link {text-decoration: none; color:#ffffff;   }
+nav li a:visited { color:#ffe680; }
+nav li a:hover { color: #b3ffb3; font-weight: bold; }
+/* COLOR white:#ffffff; dark:#3d2100; red:#b81419; yellow:#ffe680; green:#b3ffb3;
+   FONT: Calibri, Helvetica, "Gill Sans", sans-serif;*/
+main {font-family: Calibri, Helvetica, "Gill Sans", sans-serif; background-attachment: fixed;
+    color: #3d2100; height: 100%; margin-top: 0px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(95deg,rgba(255,255,255,1.00) 0%,rgba(255,230,128,1.00) 100%,rgba(255,0,0,1.00) 100%)}
+fieldset {  border: solid 3px #3d2100; margin: 0px auto 10px auto; width: 40%; background-color:  #ffffff;}
+h1 { background-color: #3d2100; color: #ffe680; border: solid 3px #3d2100; text-align: center; margin: 40px auto 0px auto; width: 40%;}
+form { padding: 20px;}
+label { font-size: 1.2em; display: block; margin: 10px 0px 0px 0px;}
+input { height: 200%; width: 250px;}
+button { margin-top: 10px; padding: 5px; background-color: #3d2100; color: #ffffff; box-shadow: 4px 4px 3px #b81419; font-size: 1.4em; transition-duration: 1s;}
+button:hover { color: #b81419; background-color: #ffe680; box-shadow: none; transition-duration: 1s; }
+/* COLOR white:#ffffff; dark:#3d2100; red:#b81419; yellow:#ffe680; green:#b3ffb3;
+   FONT: Calibri, Helvetica, "Gill Sans", sans-serif;*/
+footer {padding: 10px; color: #ffffff;  background-color: #3d2100;text-align: center; margin-top: 0px;
+		border-top: 5px solid #b81419; } 
+footer a:link {text-decoration: none; color:#ffe680;   }
+footer a:visited { color:#ffe680; }
+footer a:hover { color: #b3ffb3; font-weight: bold; }

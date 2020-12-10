@@ -1,0 +1,75 @@
+/* 	Sample Styles
+	----------------------------------*/
+	
+	/* Change the background color of the template based on your palette */
+	body { background-color:#FFFFFF; font-family: Calibri, "Gill Sans", Calibri, sans-serif; font-size: 1.1em; line-height: 1.2; letter-spacing: 0.01em;}
+	
+	/* Change according to your color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3; */
+	a { text-decoration:none; padding:0 1px; font-style: italic; color: inherit;}
+	a:hover { background-color:#3D2100; color:#FFFfff; text-decoration:none; }
+	
+	/* Change background, text and border colored to match your color palette */
+	h1#header { background-color:#FFE680 ; color:#3D2100; border-bottom:5px solid #3D2100; margin-bottom: 2px; }
+	
+	/* 	Sample Color Palette
+		Keep your color scheme at a maximum of 5 colors to preserve visual consistency
+		----------------------------------*/
+		
+		.color2, .color3, .color4, .color5 { border:5px solid #FFf; width:80px; height:80px; float:left; margin: 2px;  }
+		.color2 span,.color3 span,.color4 span,.color5 span { background-color:#fff; padding: 2px;}
+		.color1 { background-color:#FFFFFF; padding: 4px 0px 0px 1px; border:5px solid #3D2100; width:70px; height:70px; float:left; margin-top: 7px; }
+.color1 span { background-color: #FFE680; padding: 2px;}
+		.color2 { background-color:#3D2100; padding: 4px 0px 0px 1px;}
+		.color3 { background-color:#B81419; padding: 4px 0px 0px 1px;}
+		.color4 { background-color:#FFE680; padding: 4px 0px 0px 1px;}
+		.color5 { background-color:#B3FFB3; padding: 4px 0px 0px 1px;}
+
+	/* Sample Texture and Pattern*/
+
+	   .texture {
+    border: 5px solid #fff;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+    background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,1.00) 0%,rgba(255,249,224,1.00) 0.51%,rgba(255,249,224,1.00) 0.52%,rgba(255,249,224,1.00) 34.20%,rgba(255,230,128,1.00) 97.93%);
+    background-image: -moz-linear-gradient(0deg,rgba(255,255,255,1.00) 0%,rgba(255,249,224,1.00) 0.51%,rgba(255,249,224,1.00) 0.52%,rgba(255,249,224,1.00) 34.20%,rgba(255,230,128,1.00) 97.93%);
+    background-image: -o-linear-gradient(0deg,rgba(255,255,255,1.00) 0%,rgba(255,249,224,1.00) 0.51%,rgba(255,249,224,1.00) 0.52%,rgba(255,249,224,1.00) 34.20%,rgba(255,230,128,1.00) 97.93%);
+    background-image: linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(255,249,224,1.00) 0.51%,rgba(255,249,224,1.00) 0.52%,rgba(255,249,224,1.00) 34.20%,rgba(255,230,128,1.00) 97.93%);
+}
+/* Change according to your color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3; */
+.patternsection { background-color: #3D2100; padding: 2rem; text-align: center; margin-bottom: 1.5rem;}
+	/* 	Sample Typography
+		Change the font size and font stacks according to your specifications
+		----------------------------------*/
+		#typography h1 { font:30px Calibri, "Gill Sans", Helvetica, sans-serif; font-weight:bold; }
+		#typography h2 { font:24px Carlibri, "Gill Sans", Helvetica, sans-serif; font-weight:bold; border:none; }
+		#typography h3 { color:#B81419; font:18px Calibri, "Gill Sans", Helvetica, sans-serif; font-weight:bold; border:none; }
+		#typography p { font:13px/18px Calibri, "Gill Sans", Helvetica, sans-serif; }
+		
+	/* Change according to your color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3; */
+	/* Change background color to match your color palette */
+	#footer { background-color:#3D2100; color: #ffffff; text-align: center; padding: 5px; margin: 5px auto 3px auto;}
+#footer p { margin: 5px;}
+#footer a:hover { background-color: #FFE680; font-weight: bold; color: #3D2100 }
+
+input {background-color: #FFE680; padding: 5px; margin: 4px 0px; color: #3D2100;}
+
+button {
+  background-color: #FFE680; padding: 2px 3px; border-radius: 5%; text-align: center; display: inline-block; 
+ font-size: 15px; margin: 4px 0px; transition-duration: 0.1s; cursor: pointer; 
+  color: #3D2100; font-weight: bold; box-shadow: 6px 6px 3px #3D2100;} 
+button:hover {
+  background-color: #B3FFB3;color: #3D2100; box-shadow: 3px 3px 1px #3D2100; 
+}
+.elementsection { background-color: #B3FFB3; padding: 10px 0px 10px 15px; margin: 0px;}
+
+/* Change according to your color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3; */
+nav {font-size: 1.4em; border-bottom: 3px solid #3D2100; padding-top: 5px; padding-bottom: 0px; text-align: center; background-color: #3D2100; margin: 0px 0px 20px 0px; } 
+
+nav li { list-style-type: none;  display: inline; margin: 0px 10px 0px 10px;}
+nav li a:link {text-decoration: none; color :#FFEfff;}
+nav li a:visited { color:#FFE680; }
+nav li a:hover { color: #B3FFB3; font-weight: bold; }
+
+.imgsize { width: 270px; height: 220px;}

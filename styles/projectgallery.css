@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+main {  margin-right: 10px; margin-left: 8px; margin-top: 10px; text-align: center;}
+
+main img { width: 60%;}
+
+h3 {font-size: 2.5rem; margin: 5px;}
+h2 a:link { text-decoration: none; color: #3D2100;}
+h2 a:visited { color: #3D2100; }
+h2 a:hover {text-decoration: underline; color: #B81419;}
+
+p  {font-size: 1.3rem;}
+p a:link { text-decoration: none; color: #B81419; font-style: italic; }
+p a:visited { color: #B81419; font-style: italic;}
+p a:hover {text-decoration: underline; font-style: italic;}
+
+.mySlides {display: none;}
+.display-container {margin-left: auto; margin-right: auto; width: 90%;}
+.display-container img {width: 100%;}
+
+
+button { text-align: center; background-color: #3D2100; color: #ffffff; font-size: 1.4rem; font-weight: bold; width: auto; margin: 10px 20px 30px 20px; box-shadow: 5px 5px #888888;}
+button:hover {background-color: #B81419;}
+

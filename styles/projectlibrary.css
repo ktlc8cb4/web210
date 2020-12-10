@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+* {box-sizing: border-box;}
+
+main { display: grid; grid-template-columns: 250px auto ; grid-template-rows: auto ;}
+
+aside { justify-items: center; grid-column: 1; grid-row: 1; text-align: left; background-color: #B3FFB3;}
+aside ul {padding-left: 15px; padding-right: 10px; font-size: 1.4rem; }
+aside li {padding: 12px 0px 12px 0px; list-style-type: disc; list-style-position: inside; margin-left: 1.28571429em; text-indent: -1.28571429em; }
+aside li a:link { text-decoration: none; color: #3D2100; }
+aside li a:visited { color: #B81419;}
+aside li a:hover {text-decoration: underline;}
+
+.menu {background-color: #3D2100; color: #FFE680; font-size: 2rem; font-weight: normal; padding: 10px; margin-right: auto; margin-left: auto; width: 100%;}
+
+section{ grid-column: 2; grid-row: 1; margin-left: 5px; margin-right: 5px; text-align: center;}
+
+.videodiv {text-align: center; display: inline-block; margin: 5px;}
+.youtubechannel {margin-top: 20px; font-size: 2rem; }
+
+
+main img { height: 250px; width: 350px;}
+figure {align-content: center;}
+
+section h2 { text-align: center; display: flex; clear: none; margin-top: 4px; }
+h2 a:link { text-decoration: none; color: #3D2100;}
+h2 a:visited { color: #3D2100; }
+h2 a:hover {text-decoration: underline; color: #B81419;}
+
+p  {font-size: 1.2rem; margin: 4px; padding-right: 15px; padding-left: 15px;}
+p a:link { text-decoration: none; color: #B81419; font-style: italic; }
+p a:visited { color: #B81419; font-style: italic;}
+p a:hover {text-decoration: underline; font-style: italic;}
+
+	

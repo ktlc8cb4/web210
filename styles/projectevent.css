@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+main {  margin-right: 10px; margin-left: 8px; margin-top: 10px;}
+
+main img { height: 250px; width: 350px;}
+
+h3 {font-size: 2.5rem; margin: 10px;padding: 15px;}
+h2 a:link { text-decoration: none; color: #3D2100;}
+h2 a:visited { color: #3D2100; }
+h2 a:hover {text-decoration: underline; color: #B81419;}
+
+p  {font-size: 1.3rem; margin: 8px; padding: 15px;}
+p a:link { text-decoration: none; color: #B81419; font-style: italic; }
+p a:visited { color: #B81419; font-style: italic;}
+p a:hover {text-decoration: underline; font-style: italic;}
+
+	

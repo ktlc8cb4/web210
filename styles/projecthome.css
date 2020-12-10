@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+main { display: grid; grid-template-columns: 180px 180px 180px 180px 180px ; grid-template-rows: 500px auto ; grid-gap: 10px; margin-right: 10px; margin-left: 8px; margin-top: 10px;}
+
+.grid1 { justify-items: center; grid-column-start: 1; grid-column-end: 7; grid-row-start: 1; grid-row-end: 2; background-image: url("../images/chuaphuochai.jpg"); background-size: cover; background-repeat: no-repeat; z-index: 1;}
+.grid2 { grid-column-start: 1; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;  padding-top: 85px; padding-left: 40px; color: #ffffff; z-index: 2; justify-items: center;}
+
+.grid3 {grid-column-start: 1; grid-column-end: 3; grid-row-start: 2; grid-row-end: 3; justify-items: center; text-align: left; display:inline-grid;}
+.grid4 {grid-column-start: 1; grid-column-end: 3; grid-row-start: 3; grid-row-end: 4; justify-items: center; text-align: left; display:inline-grid;}
+.grid5 {grid-column-start: 3; grid-column-end: 5; grid-row-start: 2; grid-row-end: 3; justify-items: center; text-align: left; display:inline-grid; }
+.grid6 {grid-column-start: 3; grid-column-end: 5; grid-row-start: 3; grid-row-end: 4; justify-items: center; text-align: left; display:inline-grid;}
+.grid7 {grid-column-start: 5; grid-column-end: 7; grid-row-start: 2; grid-row-end: 3; justify-items: center; text-align: left; display:inline-grid;}
+.grid8 {grid-column-start: 5; grid-column-end: 7; grid-row-start: 3; grid-row-end: 4; justify-items: center; text-align: left; display:inline-grid; }
+
+main img { height: 250px; width: 350px;}
+
+h2 { margin: 4px;}
+h2 a:link { text-decoration: none; color: #3D2100;}
+h2 a:visited { color: #3D2100; }
+h2 a:hover {text-decoration: underline; color: #B81419;}
+
+p  {font-size: 1.2rem; margin: 4px; padding-right: 15px; padding-left: 15px;}
+p a:link { text-decoration: none; color: #B81419; font-style: italic; }
+p a:visited { color: #3D2100; font-style: italic;}
+p a:hover {text-decoration: underline; font-style: italic;}
+
+	

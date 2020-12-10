@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color palette FFFfff #FFFfff; 3D2100 #3D2100; B81419 #B81419; FFE680 #FFE680; B3FFB3 #B3FFB3;
+FONT: Calibri, "Gill Sans", Helvetica, sans-serif;*/
+
+* {box-sizing: border-box;}
+
+main { display: grid; grid-template-columns: auto ; grid-template-rows: auto auto auto; margin: 10px 8px; }
+
+.grid1 { justify-items: center; grid-column: 1; grid-row: 1; line-height: 180%; word-spacing: 0.22rem; border-bottom: 1px solid #3D2100; }
+.grid2 { justify-items: center; grid-column: 1; grid-row: 2; margin-top: 10px; line-height: 180%; word-spacing: 0.22rem; border-bottom: 1px solid #3D2100;}
+
+.grid3 {justify-items: center; grid-column: 1; grid-row: 3; margin-top: 10px; line-height: 180%; word-spacing: 0.22rem; border-bottom: 1px solid #3D2100;}
+
+.headmofig {float: left; margin: 0px 20px 10px 0px; padding-right: 15px;}
+.communityfig {float: right; margin: 0px 10px 10px 20px; padding-left: 15px;}
+.missionfig {float: left; margin: 0px 20px 10px 0px; padding-right: 15px;}
+
+main img { height: 250px; width: 350px;}
+
+h2 a:link { text-decoration: none; color: #3D2100;}
+h2 a:visited { color: #3D2100; }
+h2 a:hover {text-decoration: underline; color: #B81419;}
+
+p  {font-size: 1.2rem; margin: 4px; }
+p a:link { text-decoration: none; color: #B81419; font-style: italic; }
+p a:visited { color: #B81419; font-style: italic;}
+p a:hover {text-decoration: underline; font-style: italic;}
+
+	
